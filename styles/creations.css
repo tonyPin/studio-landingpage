@@ -1,0 +1,116 @@
+.creations-flex {
+  /* padding-top: 18.4rem; */
+}
+.creations-flex h2 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 32px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+.creations-flex button {
+  font-size: 14px;
+  line-height: 14px;
+  padding: 1.3em 4.3em;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  color: #000000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.creations-flex button:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.cta-desktop {
+  display: none;
+}
+.img-mobile {
+  width: 100%;
+  display: block;
+}
+.img-desktop {
+  display: none;
+}
+.item {
+  position: relative;
+  cursor: pointer;
+}
+.item:hover {
+  opacity: 0.4;
+}
+.text {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 24px;
+  max-width: 175px;
+  text-transform: uppercase;
+  color: #ffffff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 5.2rem 0rem 2rem 2rem;
+}
+.vrprojects {
+  display: grid;
+  place-items: center;
+  gap: 2.4rem;
+  grid-template-columns: repeat(auto-fill, minmax(256px, 1fr));
+}
+/* TABLET AND DESKTOP */
+@media screen and (min-width: 768px) {
+  .vrprojects {
+    /* display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2.4rem; */
+  }
+  .img-mobile {
+    /* width: 100%; */
+    display: none;
+  }
+  .img-desktop {
+    display: block;
+  }
+  .cta-desktop {
+    display: block;
+  }
+  .cta-mobile {
+    display: none;
+  }
+  .creations-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+/* END TABLET DESKTOP */
+
+.padtop {
+  padding: 4.8rem 0 0;
+}
+
+.cta-mobile {
+  font-size: 14px;
+  line-height: 14px;
+  padding: 1.3em 4.3em;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  color: #000000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.center-cta {
+  text-align: center;
+  padding: 3.4rem 0 9.6rem;
+}
