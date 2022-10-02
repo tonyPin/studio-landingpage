@@ -10,10 +10,7 @@ footer {
 .footer-rights {
   font-size: 15px;
   line-height: 25px;
-  /* identical to box height, or 167% */
-
   color: #ffffff;
-
   mix-blend-mode: normal;
   opacity: 0.5;
 }
@@ -62,7 +59,7 @@ footer {
   border-bottom: 2px solid #ffffff;
   background: #ffffff;
   transition: transform 0.3s ease;
-  transform-origin: right; /* Animate from right to left */
+  /* transform-origin: right; Animate from right to left */
 }
 .footer-social a:hover::after,
 .nav-foot__link a:hover::after {
